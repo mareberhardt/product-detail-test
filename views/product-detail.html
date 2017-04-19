@@ -23,11 +23,11 @@
 </head>
 <body>
     <div class="wrapper">
-        <section role="main" class="product-details">
+        <section role="main" class="product-details" itemscope itemtype="http://schema.org/Product">
             <div class="mesh-row">
                 <div class="mesh-col-12">
                     <header class="product-title">
-                        <h1>Ipad Mini Apple 16 Gb Wifi Led 7.9</h1>
+                        <h1 itemprop="name">Ipad Mini Apple 16 Gb Wifi Led 7.9</h1>
                     </header>
                 </div>
             </div>
@@ -35,7 +35,7 @@
             <section class="mesh-row">
                 <div class="mesh-col-xs-12 mesh-col-m-6" id="product-gallery-wrapper">
                     <figure class="product-image">
-                        <img src="http://dummyimage.com/1920x1080/dc7b1c/fff.jpg&text=Ipad+Front+Picture" alt="Ipad Mini Apple Front">
+                        <img itemprop="image" src="http://dummyimage.com/1920x1080/dc7b1c/fff.jpg&text=Ipad+Front+Picture" alt="Ipad Mini Apple Front">
                     </figure>
                 </div><!-- Product Gallery Wrapper -->
 
@@ -45,8 +45,8 @@
                             <form action="/addToCart" method="get" class="ch-form product-form">
                                 <fieldset>
                                     <legend>Precio</legend>
-                                    <article class="product-price ch-price">
-                                        $ 4799<sup>99</sup>
+                                    <article class="product-price ch-price" temprop="price" content="4799.99">
+                                        <span itemprop="priceCurrency" content="ARS">$</span> 4799<sup>99</sup>
                                     </article>
                                 </fieldset>
 
@@ -77,27 +77,27 @@
                             </form>
                         </div>
                         <div class="mesh-col-12">
-                            <section class="product-suggestion">
+                            <section class="product-suggestion" itemscope itemtype="http://schema.org/SomeProducts">
                                 <h2>More Products like this</h2>
                                 <div class="suggestion-list ch-carousel">
                                     <ul>
-                                        <li>
-                                            <a href="#" title="Related product #1">
+                                        <li itemscope itemtype ="http://schema.org/Offer">
+                                            <a href="#" title="Related product #1" itemprop="url">
                                                 <figure><img src="static/ninja.png" alt="Related product #1"></figure>
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="#" title="Related product #2">
+                                        <li itemscope itemtype ="http://schema.org/Offer">
+                                            <a href="#" title="Related product #2" itemprop="url">
                                                 <figure><img src="static/ninja.png" alt="Related product #2"></figure>
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="#" title="Related product #3">
+                                        <li itemscope itemtype ="http://schema.org/Offer">
+                                            <a href="#" title="Related product #3" itemprop="url">
                                                 <figure><img src="static/ninja.png" alt="Related product #3"></figure>
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="#" title="Related product #4">
+                                        <li itemscope itemtype ="http://schema.org/Offer">
+                                            <a href="#" title="Related product #4" itemprop="url">
                                                 <figure><img src="static/ninja.png" alt="Related product #4"></figure>
                                             </a>
                                         </li>
@@ -118,7 +118,7 @@
                         <input id="tab2" type="radio" name="tabs">
                         <label for="tab2"><span>Questions</span></label>
 
-                        <section id="content1" class="tab-content">
+                        <section id="content1" class="tab-content" itemprop="description">
                             <h3>Product Description</h3>
 
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae euismod ante. Cras ipsum libero,
@@ -132,20 +132,20 @@
                                 <div class="mesh-col-xs-12">
                                     <ol class="questions-list">
                                         <li>
-                                            <dl class="question">
+                                            <dl class="question" itemscope itemtype="http://schema.org/Question">
                                                 <dt>
                                                     <i class="ch-icon-comment" title="Buyer"></i>
-                                                    <label title="Buyer">Buyer</label>
+                                                    <label title="Buyer" itemprop="author" itemscope itemtype="http://schema.org/Person">Buyer</label>
                                                 </dt>
-                                                <dd class="content">
+                                                <dd class="content" itemprop="text">
                                                     <p>Do you have this one in white?</p>
                                                 </dd>
                                                 <dt class="answer">
                                                     <i class="ch-icon-comments-alt" title="Seller"></i>
-                                                    <label title="Seller">Seller</label>
+                                                    <label title="Seller" itemprop="author" itemscope itemtype="http://schema.org/Person">Seller</label>
                                                 </dt>
-                                                <dd class="content answer-content">
-                                                    <p>No I don't, I only have black</p>
+                                                <dd class="content answer-content" itemprop="suggestedAnswer" itemscope itemtype="http://schema.org/Answer">
+                                                    <p itemprop="text">No I don't, I only have black</p>
                                                 </dd>
                                             </dl>
                                         </li>
