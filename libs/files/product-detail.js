@@ -40,7 +40,7 @@ JS.components = [
     "src/shared/scripts/Countdown.js",
     "src/shared/scripts/Carousel.js",
     "src/shared/scripts/Calendar.js",
-    "src/product-component/scripts/Product.js",
+    "src/product-component/scripts/product-detail.js",
     "src/shared/scripts/Autocomplete.js"
 ];
 
