@@ -1,0 +1,29 @@
+// Custom Styles
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    .product-title {
+        h1 {
+            font-size: 4em;
+            margin: 35px 0;
+        }
+    }
+}
+
+// Media query
+@media only screen and (max-width: 930px) {
+    .product-title {
+        h1 {
+            font-size: 1.3em !important;
+            margin: 10px 0 !important;
+            line-height: 22px;
+        }
+    }
+    #product-gallery-wrapper {
+    	margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    //
+}
