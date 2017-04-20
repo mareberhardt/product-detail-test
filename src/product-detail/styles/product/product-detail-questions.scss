@@ -5,20 +5,23 @@
     li {
         margin-bottom: 25px;
     }
+
     .question {
-        background: $product-light-gray;
+        background: $product-gray;
         padding: 5px 2px;
-        .content {
+        border-radius: 3px;
+        .content{
             padding-left: 25px;
         }
         .answer-content{
             font-style: italic;
         }
-        label{
+        label {
             display: none;
         }
     }
-    .see-more {
+
+    .see-more{
         text-align: center;
     }
 }

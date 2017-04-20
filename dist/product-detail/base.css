@@ -2872,6 +2872,18 @@ a.ch-tag,
   margin: 35px 0;
 }
 
+@media only screen and (max-width: 930px) {
+  .product-title h1 {
+    font-size: 1.4em !important;
+    font-weight: bold;
+    margin: 10px 0 !important;
+    line-height: 22px;
+  }
+  #product-gallery-wrapper {
+    margin-bottom: 20px;
+  }
+}
+
 .product-form fieldset legend {
   display: none;
 }
@@ -2879,6 +2891,12 @@ a.ch-tag,
 .product-form fieldset .product-price {
   font-size: 40px;
   margin-bottom: 3px;
+}
+
+.product-form fieldset .ch-price span {
+  color: #900;
+  font-size: 40px;
+  font-weight: 700;
 }
 
 .product-form fieldset.action .ownership-info {
@@ -2933,16 +2951,21 @@ a.ch-tag,
 }
 
 .tab-container [id^="tab"]:checked + label {
-  background: #fff;
-  -webkit-box-shadow: inset 0 3px #dc7b1c;
-          box-shadow: inset 0 3px #dc7b1c;
+  background: #f4f4ef;
+  margin-bottom: -3px;
+  border-style: solid;
+  border-width: 3px 3px 0;
+  border-color: #dc7b1c;
 }
 
 #tab1:checked ~ #content1,
 #tab2:checked ~ #content2 {
   display: block;
-  padding: 18px;
-  border-bottom: 2px solid #dc7b1c;
+  padding: 10px;
+  background: #f4f4ef;
+  border-style: solid;
+  border-width: 3px 3px;
+  border-color: #dc7b1c;
 }
 
 .tab-container .tab-content p,
@@ -2967,32 +2990,6 @@ a.ch-tag,
   }
 }
 
-@-webkit-keyframes fadeInScale {
-  0% {
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    opacity: 1;
-  }
-}
-
-@keyframes fadeInScale {
-  0% {
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    opacity: 1;
-  }
-}
-
 /* Questions and Answers */
 .questions-list {
   clear: both;
@@ -3003,8 +3000,10 @@ a.ch-tag,
 }
 
 .questions-list .question {
-  background: #f4f4ef;
+  background: #ddd;
   padding: 5px 2px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
 }
 
 .questions-list .question .content {

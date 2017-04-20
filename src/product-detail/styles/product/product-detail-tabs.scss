@@ -30,16 +30,22 @@
     }
 
     [id^="tab"]:checked + label {
-        background: $product-white;
-        box-shadow: $product-tabs-top-shadow;
+        background: $product-light-gray;
+        margin-bottom: -3px;
+        border-style: solid;
+        border-width: 3px 3px 0;
+        border-color: $product-orange;
     }
 }
 
 #tab1:checked ~ #content1,
 #tab2:checked ~ #content2 {
     display: block;
-    padding: 18px;
-    border-bottom: $product-tabs-border-bottom-content;
+    padding: 10px;
+    background: $product-light-gray;
+    border-style: solid;
+    border-width: 3px 3px;
+    border-color: $product-orange;
 }
 
 .tab-container .tab-content p,
@@ -69,18 +75,5 @@
                 line-height: 40px;
             }
         }
-    }
-}
-
-// Animation
-@keyframes fadeInScale {
-    0% {
-        transform: scale(0.9);
-        opacity: 0;
-    }
-
-    100% {
-        transform: scale(1);
-        opacity: 1;
     }
 }
