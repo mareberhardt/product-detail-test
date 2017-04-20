@@ -8,7 +8,7 @@ JS.core = [
     "src/shared/scripts/core.js",
     "src/shared/scripts/events.js",
     "src/shared/scripts/factory.js",
-    "src/product-component/scripts/init.js"
+    "src/product-detail/scripts/init.js"
 ];
 
 /*
@@ -41,7 +41,7 @@ JS.components = [
     "src/shared/scripts/Countdown.js",
     "src/shared/scripts/Carousel.js",
     "src/shared/scripts/Calendar.js",
-    "src/product-component/scripts/product-detail.js",
+    "src/product-detail/scripts/product-detail.js",
     "src/shared/scripts/Autocomplete.js"
 ];
 
