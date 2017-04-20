@@ -2922,7 +2922,7 @@ a.ch-tag,
 }
 
 .tab-container {
-  margin: 0 auto;
+  margin-bottom: 20px;
   padding-top: 70px;
   position: relative;
 }
@@ -2948,6 +2948,7 @@ a.ch-tag,
   color: #757575;
   cursor: pointer;
   text-align: center;
+  font-weight: bold;
 }
 
 .tab-container [id^="tab"]:checked + label {

@@ -1,6 +1,6 @@
 // Tabs
 .tab-container {
-    margin: 0 auto;
+    margin-bottom: 20px;
     padding-top: 70px;
     position: relative;
 
@@ -27,6 +27,7 @@
         color: $product-dark-gray;
         cursor: pointer;
         text-align: center;
+        font-weight: bold;
     }
 
     [id^="tab"]:checked + label {
