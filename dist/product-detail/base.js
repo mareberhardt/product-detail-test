@@ -9487,19 +9487,19 @@ module.exports = tiny;
 
 }(this, this.ch));
 
-(function (window) {
+(function () {
     'use strict';
 
-    function qS(selector) { return document.querySelector(selector); };
+    function qS(selector) { return document.querySelector(selector); }
 
     // Carousel
     var carouselOptions = {
-        "pagination": false,
-        "arrows": true,
-        "limitPerPage": 3,
+        'pagination': false,
+        'arrows': true,
+        'limitPerPage': 3,
     };
 
-    var carousel = new ch.Carousel(qS('.suggestion-list'), carouselOptions);
+    new ch.Carousel(qS('.suggestion-list'), carouselOptions);
 
     tiny.on('a[href="#"]', 'click', function(e) {
         e.preventDefault();
