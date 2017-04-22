@@ -2,9 +2,6 @@
 
 .questions-list {
     clear: both;
-    li {
-        margin-bottom: 25px;
-    }
 
     .question {
         background: $product-gray;
@@ -15,9 +12,6 @@
         }
         .answer-content{
             font-style: italic;
-        }
-        label {
-            display: none;
         }
     }
 

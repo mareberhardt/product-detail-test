@@ -2996,10 +2996,6 @@ a.ch-tag,
   clear: both;
 }
 
-.questions-list li {
-  margin-bottom: 25px;
-}
-
 .questions-list .question {
   background: #ddd;
   padding: 5px 2px;
@@ -3013,10 +3009,6 @@ a.ch-tag,
 
 .questions-list .question .answer-content {
   font-style: italic;
-}
-
-.questions-list .question label {
-  display: none;
 }
 
 .questions-list .see-more {
