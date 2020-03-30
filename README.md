@@ -180,21 +180,3 @@ Tests are executing using the karma test runner so feel free to run them in your
   for Google Chrome:
 
     ./node_modules/.bin/karma start --browsers Chrome
-
-
-## Get in touch
-
-- E-mail: [chico at mercadolibre dot com](mailto:chico@mercadolibre.com)
-- Twitter: [@chicoui](https://twitter.com/chicoui)
-- Web: http://chico-ui.com.ar/
-
-## Maintained by
-
-- Her Mammana ([@hmammana](https://twitter.com/hmammana))
-- Lean Linares ([@lean8086](https://twitter.com/lean8086))
-
-## Thanks to
-
-- Guille Paz ([@pazguille](https://twitter.com/pazguille)).
-- Natan Santolo ([@natos](https://twitter.com/natos)). Creator and former leader, now traveling around the world, drinking beer and looking for the secret of eternal life.
-- Nati Devalle ([@taly](https://twitter.com/taly)). Because we love her. She is awesome!
